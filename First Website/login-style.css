@@ -1,0 +1,24 @@
+body{
+	color: black;
+	text-align: center;
+	background-color: rgb(51,255,134);
+	height: 50px;
+}
+form{
+	font-family: "Times New Roman bold",sans-serif;
+	font-size: 50;
+	text-align: center;
+}
+input{
+	border-top: 50px;
+	font-size: 30px;
+	min-height: 50px;
+	top: 50px;
+
+}
+.submissionfield{
+	width: 100px; 
+	height: 50px; 
+	border: 5px;
+	text-align: center;
+}

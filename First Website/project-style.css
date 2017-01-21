@@ -1,0 +1,62 @@
+h1{
+	color: black;
+	text-align: center;
+	line-height: 5;
+	animation-duration: 3s;
+	animation-name: slideout;
+
+}
+li{
+	text-align: left;
+	border: 200px;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-family: 'roboto',sans-serif;
+	font-size: 40px;
+	color: black;
+	animation-duration: 5s;
+	animation-name: slidein;
+	border: 50px;
+	height: 70px;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+body{
+	text-decoration: none;
+}
+@keyframes slideout {
+  from {
+    margin-right: 100%; 
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.headline{
+	background-image: url("http://wallpapercave.com/wp/bM2WavU.jpg");
+	height: 400;
+}
+html { 
+  
+  background: url(http://wallpapercave.com/wp/bM2WavU.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
